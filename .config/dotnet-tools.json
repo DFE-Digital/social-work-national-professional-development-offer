@@ -8,6 +8,13 @@
         "husky"
       ],
       "rollForward": false
+    },
+    "powershell": {
+      "version": "7.6.2",
+      "commands": [
+        "pwsh"
+      ],
+      "rollForward": false
     }
   }
 }

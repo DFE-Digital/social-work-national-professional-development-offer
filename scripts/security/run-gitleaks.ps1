@@ -178,8 +178,8 @@ function Invoke-Gitleaks {
     $script:gitleaksExitCode = $LASTEXITCODE
 }
 
-if ($env:SUI_SKIP_GITLEAKS -eq "1") {
-    Write-Host "Skipping GitLeaks because SUI_SKIP_GITLEAKS=1."
+if ($env:SW_SKIP_GITLEAKS -eq "1") {
+    Write-Host "Skipping GitLeaks because SW_SKIP_GITLEAKS=1."
     exit 0
 }
 
@@ -232,7 +232,7 @@ try {
     Write-Host ""
     Write-Host "GitLeaks found potential secrets in staged changes."
     Write-Host "If the finding is expected, update .gitleaks.toml or regenerate .gitleaks.baseline.json intentionally."
-    Write-Host "For urgent commits only, rerun with SUI_SKIP_GITLEAKS=1."
+    Write-Host "For urgent commits only, rerun with SW_SKIP_GITLEAKS=1."
     exit $exitCode
 }
 finally {
