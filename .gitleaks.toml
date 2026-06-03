@@ -1,0 +1,8 @@
+title = "Social Work National Professional Development Offer Gitleaks Configuration"
+
+[extend]
+useDefault = true
+
+# [allowList]
+# description = "Tracked fixtures and local development examples with placeholder credentials"
+# paths = []

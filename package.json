@@ -1,0 +1,25 @@
+{
+  "name": "social-work-national-professional-development-offer",
+  "version": "1.0.0",
+  "description": "The repository will be used to store project source code for the social work national professional development offer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DFE-Digital/social-work-national-professional-development-offer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DFE-Digital/social-work-national-professional-development-offer/issues"
+  },
+  "homepage": "https://github.com/DFE-Digital/social-work-national-professional-development-offer#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
