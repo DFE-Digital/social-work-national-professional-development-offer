@@ -36,7 +36,7 @@ These are the preliminary development processes for developers and QAs. These pr
 12. QA/Tester to perform manual tests to see if the acceptance criteria was met.
 13. Once QA/Test has signed off.
 14. Update `production` environment
-    1. Use `Deploy - Environment` to deploy the code changes made to the `staging` azure instance
+    1. Use `Deploy - Environment` to deploy the code changes made to the `test` azure instance
     2. Use `Deploy - Environment` to deploy the code changes made to the `production` azure instance
 15. Inform the team in MS Teams group chat, that the code changes have been deployed.
 
